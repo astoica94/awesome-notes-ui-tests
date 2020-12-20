@@ -1,0 +1,643 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-20T18:08:56.166Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3540000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "C_AN_001 - Language change functionality",
+        "description": "",
+        "id": "feature-file-containing-scenarios-to-test-awesome-notes-app;c-an-001---language-change-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3621000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to application address",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.userNavigatesToApplicationAddress()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "language selected should be \"English\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"English\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.AwesomeNoteSteps.languageSelectedShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user changes application language to \"Romanian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Romanian\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.AwesomeNoteSteps.userChangesApplicationLanguageTo(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "language selected should be \"Romana\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Romana\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.AwesomeNoteSteps.languageSelectedShouldBe(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T18:09:03.526Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3015000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "C_AN_002 - View the list of the notes",
+        "description": "",
+        "id": "feature-file-containing-scenarios-to-test-awesome-notes-app;c-an-002---view-the-list-of-the-notes",
+        "after": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3633000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to application address",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.userNavigatesToApplicationAddress()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "a list of available should be displayed",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.aListOfAvailableShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "note has priority icon",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.noteHasPriorityIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "note has text",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.noteHasText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "note has delete button",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.noteHasDeleteButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T18:09:10.364Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3048000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "C_AN_003 - Delete note - complete remove flow",
+        "description": "",
+        "id": "feature-file-containing-scenarios-to-test-awesome-notes-app;c-an-003---delete-note---complete-remove-flow",
+        "after": [
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3638000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user navigates to application address",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.userNavigatesToApplicationAddress()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user selects delete icon for 2 note",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.AwesomeNoteSteps.userSelectsDeleteIconForNote(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "a confirmation modal for delete should be displayed",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.aConfirmationModalForDeleteShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user confirms changes displayed in modal",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.userConfirmsChangesDisplayedInModal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "previously deleted note should not be available",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.previouslyDeletedNoteShouldNotBeAvailable()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T18:09:17.371Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3035000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "C_AN_004 - Delete note - discard delete process",
+        "description": "",
+        "id": "feature-file-containing-scenarios-to-test-awesome-notes-app;c-an-004---delete-note---discard-delete-process",
+        "after": [
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3635000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user navigates to application address",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.userNavigatesToApplicationAddress()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user selects delete icon for 2 note",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.AwesomeNoteSteps.userSelectsDeleteIconForNote(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "a confirmation modal for delete should be displayed",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.aConfirmationModalForDeleteShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user discards changes displayed in modal",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.userDiscardsChangesDisplayedInModal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "previously attempted note to delete should be available",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.previouslyAttemptedNoteToDeleteShouldBeAvailable()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T18:09:24.335Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3032000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "C_AN_006 - Create note",
+        "description": "",
+        "id": "feature-file-containing-scenarios-to-test-awesome-notes-app;c-an-006---create-note",
+        "after": [
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3617000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user navigates to application address",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.userNavigatesToApplicationAddress()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 279000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user adds text \"Hello this a test\" into new note input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello this a test\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.AwesomeNoteSteps.userAddsTextIntoNewNoteInputField(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user clicks add note button",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.userClicksAddNoteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "added note should be displayed in the list",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.addedNoteShouldBeDisplayedInTheList()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-20T18:09:31.452Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3032000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "C_AN_007 - Create note - custom priority",
+        "description": "",
+        "id": "feature-file-containing-scenarios-to-test-awesome-notes-app;c-an-007---create-note---custom-priority",
+        "after": [
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CucumberHooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3641000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user navigates to application address",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.userNavigatesToApplicationAddress()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 281000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user adds text \"Hello this a test\" into new note input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello this a test\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.AwesomeNoteSteps.userAddsTextIntoNewNoteInputField(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user selects \"Blocker\" note priority",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blocker\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.AwesomeNoteSteps.userSelectsNotePriority(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user clicks add note button",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.userClicksAddNoteButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "added note should be displayed in the list",
+            "match": {
+              "location": "steps.AwesomeNoteSteps.addedNoteShouldBeDisplayedInTheList()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "added note should have \"Blocker\" priority",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blocker\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.AwesomeNoteSteps.addedNoteShouldHavePriority(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Feature file containing scenarios to test Awesome Notes app",
+    "description": "",
+    "id": "feature-file-containing-scenarios-to-test-awesome-notes-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AwesomeNotes.feature",
+    "tags": []
+  }
+]
