@@ -18,6 +18,7 @@ public class CucumberHooks extends BasePage {
     @After
     public void teardown(Scenario scenario) {
         //Run after each scenario
+        //TODO Screenshot is not embedded correctly
         if (scenario.isFailed()) {
             scenario
                     .attach(((TakesScreenshot) driverFactory.getDriver())
